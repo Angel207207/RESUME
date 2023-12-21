@@ -2,7 +2,7 @@
 
 * {
   color: rgb(21, 0, 92);
-}
+};
 
 body {
   background-color: #000000;
@@ -13,41 +13,41 @@ body {
   font-weight: 900;
   font-style: italic;
   text-shadow: 1px 1px 1px #ffffff, 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
-}
+};
 
 img {
   border: solid rgb(20, 0, 92) 3px;
   border-radius: 5%;
   width: 270px;
   height: 350px;
-}
+};
 
 a {
   text-decoration: none;
   font-size: larger;
   color: #000000;
-}
+};
 
 a:hover {
   background-color:rgb(255, 255, 255);
   border-radius: 15px;
   padding: 7px;
-}
+};
 
 a:active {
   color: aqua;
-}
+};
 
 a.visited {
   color: gold;
-}
+};
 
 .container {
   padding-top: 10px;
   margin: auto;
   max-width: 750px;
   padding-bottom: 10px;
-}
+};
 
 .info {
   background-color: rgba(255, 255, 255, 0.062);
@@ -57,11 +57,11 @@ a.visited {
   margin-top: 15px;
   font-style: normal;
   font-size: medium;
-}
+};
 
 .info h1 {
   margin-top: 10px;
-}
+};
 
 .hobbies {
   text-align: start;
@@ -69,30 +69,30 @@ a.visited {
   margin-top: 15px;
   padding: 15px;
   border-radius: 15px;
-}
+};
 
 .hobbies fieldset {
   border: solid 2px rgb(20, 0, 92);
   border-radius: 15px;
-}
+};
 
 .hobbies h1 {
   margin-top: 0;
   margin-bottom: 0;
-}
+};
 
 .hobbies ul {
   margin-top: 0px;
   padding-left: 30px;
-}
+};
 
 .hobbies li{
   padding-bottom: 10px;
-}
+};
 
 .hobbies li:last-child {
   padding-bottom: 0;
-}
+};
 
 .workexp {
   position: static;
@@ -101,29 +101,29 @@ a.visited {
   margin-top: 15px;
   padding: 15px;
   border-radius: 15px;
-}
+};
 
 .workexp fieldset {
   border-radius: 15px;
   border: solid 2px rgb(20, 0, 92);
-}
+};
 
 .workexp h1 {
   margin-top: 0;
-}
+};
 
 .workexp tr {
   text-align: center;
-}
+};
 
 .workexp td {
   padding-right: 10px;
-}
+};
 
 .workexp td:nth-child(1),
 td:nth-child(2) {
   text-align: start;
-}
+};
 
 .contacts {
   background-color: rgba(255, 255, 255, 0.062);
@@ -131,29 +131,29 @@ td:nth-child(2) {
   margin-top: 15px;
   padding: 15px;
   font-style: normal;
-}
+};
 
 .contacts h2 {
   margin-top: 0px;
-}
+};
 
 .contacts div {
   padding-bottom: 10px;
-}
+};
 
 .contacts label {
   padding-right: 10px;
-}
+};
 
 .contacts input {
   width: 170px;
   border-radius: 5px;
-}
+};
 
 textarea {
   margin-top: 10px;
   border-radius: 5px;
-}
+};
 
 .btn input {
   width: 280px;
@@ -162,36 +162,37 @@ textarea {
   border-radius: 15px;
   cursor: pointer;
   font-weight: bold;
-}
+};
 
 .btn:hover {
   opacity: 0.7;
-}
+};
 
 /* iPhone SE (адаптивная вёрстка)*/
 @media (max-width: 320px) {
   img {
     display: block;
     margin: auto;
-  }
+  };
 
   .workexp {
     display: table;
-  }
+  };
 
   .workexp td {
     padding-right: 10px;
     padding-top: 10px;
-  }
+  };
+
   .workexp h1 {
     margin-bottom: 0;
-  }
+  };
 
   .workexp tbody {
     height: 200px;
-  }
+  };
 
   .contacts label {
     font-size: small;
-  }
-}
+  };
+};
